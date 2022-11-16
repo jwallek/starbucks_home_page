@@ -1,0 +1,111 @@
+.drinks{
+    height: 38rem;
+    max-width: 1440px;
+    width: 100%;
+    background-color: rgb(255, 149, 167);
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    justify-content: space-evenly;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.drink-img{
+    height: 100%;
+    width: 100%;
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    box-sizing: border-box;
+
+}
+.drinks-title{
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+    height: 100%;
+    color:rgb(54, 54, 54);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.drinks-title h2{
+    font-size: 55px;
+    font-weight: bolder;
+    margin-bottom: 2rem;
+}
+.drinks-title button{
+    color: rgb(54, 54, 54);
+    width: 125px;
+    height: 35px;
+    font-size: 16px;
+    background: none;
+    border: 1px solid rgb(54, 54, 54);
+    border-radius: 2rem;
+    font-weight: bold;
+    margin-top: 2rem;
+}
+.drinks-desc{
+    font-size:28px;
+    text-align: center;
+    margin: 0 5rem;
+    color: rgb(54, 54, 54)
+}
+
+@media screen and (max-width: 950px){
+    .drinks-title h2{
+        font-size: 40px;
+        font-weight: bolder;
+    }
+    .drinks-desc{
+        font-size:20px;
+        text-align: center;
+        color: rgb(54, 54, 54);
+        margin: 0 1.50rem;
+        
+    }
+}
+
+
+
+
+@media screen and (max-width: 780px){
+    .drinks{
+        display: flex;
+        flex-direction: column;
+        flex-flow: column-reverse;
+        height: 50rem;
+        max-height: 50rem;
+    }
+    .drink-img{
+        width: 100%;
+        top: 0;
+        height: 70%;
+        object-fit: cover; 
+    }
+    .drinks-title{
+        height: 40%;
+        margin: 0;
+    }
+    h2 br{
+        display: none;
+    }
+
+    .drinks-title h2{
+        font-size: 28px;
+        font-weight: bolder;
+    }
+    .drinks-desc{
+        font-size:20px;
+        text-align: center;
+        color: rgb(54, 54, 54);
+        margin: 0 1.50rem;
+        
+    }
+}

@@ -1,0 +1,8 @@
+.navbar{
+    background-color: white;
+    border-bottom: 1.5px solid lightgrey;
+    font-weight: 700;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+}
