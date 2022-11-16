@@ -2,7 +2,7 @@
   "name": "starbucks",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://jwallek.github.io/Starbucks_Homepage",
+  "homepage": "https://jwallek.github.io/starbucks_home_page",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
